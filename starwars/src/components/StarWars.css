@@ -9,13 +9,19 @@
     margin-bottom: 10px;
     color: yellow;
     /* text-shadow: 0 0 2px white; */
+}
 
+.character-name {
+    /* text-decoration: underline; */
+    font-size: 1.5rem;
+    padding-bottom: 5px;
+    border-bottom: 2px solid yellow;
 }
 
 .character-info {
     padding-left: 30px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 0;
+    padding-bottom: 15px;
 }
 
 .character-info ul{

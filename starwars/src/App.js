@@ -8,11 +8,6 @@ class App extends Component {
     super();
     this.state = {
       starwarsChars: [],
-      name: '',
-      species: '',
-      homeWorld: '',
-      birthYear: '',
-      films: [],
     };
   }
 
@@ -39,7 +34,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <h1 className="Header">REACT WARS</h1>
+        <h1 className="Header">REACT <br/> WARS</h1>
         <div className="character-list">
           {this.state.starwarsChars.map((char,index) => (
             <Character key={index} character={char}/>
