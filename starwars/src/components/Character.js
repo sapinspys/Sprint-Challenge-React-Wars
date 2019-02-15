@@ -23,5 +23,4 @@ function Character(props) {
     )
 }
 
-{/* {JSON.stringify(props.character.films.map(film => props.swapiFunc(film)))} */}
 export default Character;
