@@ -24,13 +24,21 @@ In this challenge, create a web page that presents a styled list of Star Wars ch
 
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
-- [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
+- [X] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
-- [ ] What does it mean to _think_ in react?
+- React.JS is a JavaScript library used to build user interfaces. Web applications built using React use an engine called the Virtual DOM to updates changes efficiently and on-demand without expensive DOM operations. Instead of refreshing the entire application, React's engine selectively updates only the components that have been changed. This makes complex and overlapping user interactions much easier handle and results in smoother user experiences.
 
-- [ ] Describe state.
+- [X] What does it mean to _think_ in react?
 
-- [ ] Describe props.
+- Thinking in React during development means thinking about applications in terms of composability. A highly composable application in React is made up of smaller pieces of UI, termed components, that are reusable and may be re-rendered dynamically on demand to the user.
+
+- [X] Describe state.
+
+- State is a data object that is set up in a React component. This data may be passed down to child components as props.
+
+- [X] Describe props.
+
+- Props is short for properties. These props are immutable and are recieved by children components from the parent state. They can be used to display data to the user or reference a function that lives in another component.
 
 ## Project Set Up
 
