@@ -2,9 +2,16 @@
     background: white;
     box-shadow: 0 0 10px black;
     width: 500px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
     margin: 0 auto;
 }
 
-.character-info {
-    width: 500px;
+.character-info ul{
+    padding: 0;
+}
+
+.character-info li{
+    padding-left: 30px;
 }

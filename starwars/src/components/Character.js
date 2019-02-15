@@ -11,10 +11,17 @@ function Character(props) {
                 <p><strong>Species: </strong>{props.character.species}</p>
                 <p><strong>Home World: </strong>{props.character.homeworld}</p>
                 <p><strong>Birth Year: </strong>{props.character.birth_year}</p>
-                <p><strong>Films: </strong>{props.character.films}</p>
+                <ul><strong>Films:</strong>
+                    {props.character.films.map((film,index) => {
+                        return <React.Fragment>
+                            <li>{film}</li> {props.character.films - 1 !== index}
+                        </React.Fragment>
+                    })}
+                </ul>
             </div>
         </div>
     )
 }
 
+{/* {JSON.stringify(props.character.films.map(film => props.swapiFunc(film)))} */}
 export default Character;
