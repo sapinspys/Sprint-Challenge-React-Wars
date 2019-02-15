@@ -1,0 +1,10 @@
+.character-card {
+    background: white;
+    box-shadow: 0 0 10px black;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.character-info {
+    width: 500px;
+}
