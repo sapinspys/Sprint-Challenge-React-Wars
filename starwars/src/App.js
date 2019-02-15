@@ -5,7 +5,12 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
-      starwarsChars: []
+      starwarsChars: [],
+      name: '',
+      species: '',
+      homeWorld: '',
+      birthYear: '',
+      films: [],
     };
   }
 
