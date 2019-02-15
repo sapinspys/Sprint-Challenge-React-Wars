@@ -12,7 +12,7 @@
 }
 
 .character-card:hover {
-    box-shadow: 0 0 50px black;
+    box-shadow: 0 0 20px black;
     transform: scale(1.1)
 
 }
@@ -25,9 +25,9 @@
 }
 
 .character-info {
-    padding-left: 30px;
-    padding-top: 0;
-    padding-bottom: 15px;
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 30px;
 }
 
 .character-info ul{

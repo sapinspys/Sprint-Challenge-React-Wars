@@ -2,15 +2,16 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  font-family: 'Nova Flat', cursive;
 }
 
 .Header {
+  margin: 0;
   color: #443e3e;
-  text-shadow: 1px 1px 5px #fff;
   text-align: center;
-  font-size: 4rem;
+  font-size: 7rem;
   color: black;
-  text-shadow: 0 0 5px yellow;
-  font-family: 'Poller One', cursive;
+  text-shadow: 0 0 20px yellow;
+  font-family: 'Bungee Shade', cursive;
 }
 /* write your parent styles in here for your App.js */
