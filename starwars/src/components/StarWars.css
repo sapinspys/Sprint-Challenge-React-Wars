@@ -8,6 +8,13 @@
     margin-bottom: 50px;
     color: yellow;
     /* text-shadow: 0 0 2px white; */
+    transition: 0.5s;
+}
+
+.character-card:hover {
+    box-shadow: 0 0 50px black;
+    transform: scale(1.1)
+
 }
 
 .character-name {
