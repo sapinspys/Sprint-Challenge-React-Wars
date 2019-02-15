@@ -24,34 +24,42 @@ In this challenge, create a web page that presents a styled list of Star Wars ch
 
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
-- [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
+- [X] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
-- [ ] What does it mean to _think_ in react?
+- React.JS is a JavaScript library used to build user interfaces. Web applications built using React use an engine called the Virtual DOM to updates changes efficiently and on-demand without expensive DOM operations. Instead of refreshing the entire application, React's engine selectively updates only the components that have been changed. This makes complex and overlapping user interactions much easier handle and results in smoother user experiences.
 
-- [ ] Describe state.
+- [X] What does it mean to _think_ in react?
 
-- [ ] Describe props.
+- Thinking in React during development means thinking about applications in terms of composability. A highly composable application in React is made up of smaller pieces of UI, termed components, that are reusable and may be re-rendered dynamically on demand to the user.
+
+- [X] Describe state.
+
+- State is a data object that is set up in a React component. This data may be passed down to child components as props.
+
+- [X] Describe props.
+
+- Props is short for properties. These props are immutable and are recieved by children components from the parent state. They can be used to display data to the user or reference a function that lives in another component.
 
 ## Project Set Up
 
 Follow these steps to set up and work on your project:
 
-- [ ] Create a forked copy of this project.
-- [ ] Add PM as collaborator on Github.
-- [ ] Clone your OWN version of Repo (Not Lambda's by mistake!).
-- [ ] Create a new Branch on the clone: git checkout -b `<firstName-lastName>`.
-- [ ] Change directories into `./starwars` (`cd starwars`) and run `yarn install` to retrieve all needed dependencies.
-- [ ] Once you have installed the _node_modules_, run `yarn start or` to get your server up and running.
-- [ ] With the server up and running, open Chrome and head over to `localhost:3000` and view your beautiful app. Maybe it's not _that_ pretty... _yet_, your goal is to ensure this project becomes a thing of beauty.
+- [X] Create a forked copy of this project.
+- [X] Add PM as collaborator on Github.
+- [X] Clone your OWN version of Repo (Not Lambda's by mistake!).
+- [X] Create a new Branch on the clone: git checkout -b `<firstName-lastName>`.
+- [X] Change directories into `./starwars` (`cd starwars`) and run `yarn install` to retrieve all needed dependencies.
+- [X] Once you have installed the _node_modules_, run `yarn start or` to get your server up and running.
+- [X] With the server up and running, open Chrome and head over to `localhost:3000` and view your beautiful app. Maybe it's not _that_ pretty... _yet_, your goal is to ensure this project becomes a thing of beauty.
 Follow these steps for completing your project.
-- [ ] Implement the project on this Branch, committing changes regularly.
-- [ ] Push commits: git push origin `<firstName-lastName>`.
+- [X] Implement the project on this Branch, committing changes regularly.
+- [X] Push commits: git push origin `<firstName-lastName>`.
 
 Follow these steps for completing your project:
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo).
-- [ ] Add your Project Manager as a Reviewer on the Pull-request
-- [ ] PM then will count the HW as done by  merging the branch back into master.
+- [X] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo).
+- [X] Add your Project Manager as a Reviewer on the Pull-request
+- [X] PM then will count the HW as done by  merging the branch back into master.
 
 Please note:
 

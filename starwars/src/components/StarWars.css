@@ -1,0 +1,41 @@
+.character-card {
+    background: url('./stars-space.jpeg');
+    box-shadow: 0 0 10px black;
+    width: 500px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    color: yellow;
+    /* text-shadow: 0 0 2px white; */
+    transition: 0.5s;
+}
+
+.character-card:hover {
+    box-shadow: 0 0 20px black;
+    transform: scale(1.1)
+
+}
+
+.character-name {
+    /* text-decoration: underline; */
+    font-size: 1.5rem;
+    padding-bottom: 5px;
+    border-bottom: 2px solid yellow;
+}
+
+.character-info {
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.character-info ul{
+    padding: 0;
+    list-style-position: inside;
+}
+
+.character-info li{
+    margin-top: 5px;
+    padding-left: 20px;
+}
