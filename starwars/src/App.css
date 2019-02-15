@@ -1,4 +1,8 @@
-
+.character-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
 .Header {
   color: #443e3e;
   text-shadow: 1px 1px 5px #fff;
@@ -7,6 +11,5 @@
   color: black;
   text-shadow: 0 0 5px yellow;
   font-family: 'Poller One', cursive;
-  margin-bottom: 20px;
 }
 /* write your parent styles in here for your App.js */
