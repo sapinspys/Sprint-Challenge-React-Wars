@@ -1,17 +1,24 @@
 .character-card {
-    background: white;
+    background: url('./stars-space.jpeg');
     box-shadow: 0 0 10px black;
     width: 500px;
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
     margin: 0 auto;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.character-info {
+    padding-left: 20px;
 }
 
 .character-info ul{
     padding: 0;
+    list-style-position: inside;
 }
 
 .character-info li{
-    padding-left: 30px;
+    padding-left: 20px;
 }
